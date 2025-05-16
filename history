@@ -1,0 +1,500 @@
+    4  git --help
+    5  git init
+    6  ls -a
+    7  ls .git/
+    8  cat .git/config 
+    9  ls
+   10  ls
+   11   mkdir repositery_1
+   12  touch file_{1..5}.txt
+   13  ls
+   14  git add file_1.txt
+   15  git status
+   16  git commit -m "adding file_1"
+   17  git status
+   18  git add  .
+   19  git status
+   20  git commit -m "adding file_2/3/4/5"
+   21  git status
+   22  git --help
+   23  git log
+   24  git log --oneline 
+   25  ls
+   26  vim repositery_1/file.txt
+   27  git status 
+   28  echo "hello world" >> file_1.txt 
+   29  git status 
+   30  git add .
+   31  git add .
+   32  git status 
+   33  git commit -m "adding dir and updating file 'file_1.txt' "
+   34  ls
+   35  rm -fr file_2
+   36  rm -fr file_3
+   37  ls
+   38  git add .
+   39  git status 
+   40  ls
+   41  rm -fr file_3.txt 
+   42  rm -fr file_2.txt 
+   43  ls
+   44  git status 
+   45  git add .
+   46  git commit -m "removing few files"
+   47  git status 
+   48  git log 
+   49  git --help 
+   50  git config --help
+   51  git config --global user.email "apponix@academy.in"
+   52  git config --global user.name "apponix"
+   53  git config --list 
+   54  git config --global user.mail "apponix@academy.in"
+   55  git config --list 
+   56  ls
+   57  cd git/
+   58  ls
+   59  git clone https://github.com/swapnibrad/git.git
+   60  ls
+   61  mv New\ Text\ Document.txt f* re* git
+   62  ls
+   63  cd git/
+   64  ls
+   65  ls -a
+   66  ls .git/
+   67  cd ..
+   68  ls
+   69  ls
+   70  cd git/
+   71  ls
+   72  echo "welcome to git repository...ls!" >> file_4.txt 
+   73  cat file_4.txt 
+   74  git add .
+   75  git add .
+   76  git commit -m "commit message"
+   77  git push
+   78  ls
+   79  ls
+   80  cd ..
+   81  cd ..
+   82  git colne https://github.com/swapnibrad/apponex_repo_1.git
+   83  git clone https://github.com/swapnibrad/apponex_repo_1.git
+   84  ssh-keygen
+   85  git clone git@github.com:swapnibrad/apponex_repo_1.git
+   86  ls
+   87  cd apponex_repo_1/
+   88  touch a.txt
+   89  vim a.txt 
+   90  cat a.txt 
+   91  git add .
+   92  git commit -m "test file"
+   93  git push
+   94  ls
+   95  git pull
+   96  ls
+   97  ls
+   98  pwd
+   99  ls
+  100  pwd
+  101  touch file_1.txt
+  102  rm file_1.txt 
+  103  ls
+  104  rm -fr apponex_repo_1/
+  105  ls
+  106  cd git/
+  107  ls
+  108  cd ..
+  109  rm -fr git/
+  110  https://github.com/swapnibrad/apponex_repo_1.git
+  111  git clone https://github.com/swapnibrad/apponex_repo_1.git
+  112  ls
+  113  cd apponex_repo_1/
+  114  ls -a
+  115  git branch
+  116  git branch dev
+  117  git branch
+  118  git switch dev
+  119  ls
+  120  ll ../
+  121  ll ../ >> desktop_files.txt
+  122  ls
+  123  cat desktop_files.txt 
+  124  git add .
+  125  git add .
+  126  git commit -m "adding dev branch"
+  127  git push
+  128   git push --set-upstream origin dev
+  129  ls
+  130  git branch test
+  131  ls
+  132  git switch test
+  133  ls
+  134  git branch dev
+  135  git switch  dev
+  136  ls
+  137  ll
+  138  ll >> repo_files.txt
+  139  ls
+  140  git switch test
+  141  ls
+  142   git push --set-upstream origin dev
+  143   git push --set-upstream origin test
+  144  git switch  dev
+  145  git add .
+  146  git commit -m "updated dev files"
+  147   git push --set-upstream origin dev
+  148  ls
+  149  git merge test
+  150  git switch  test
+  151  ls
+  152  git merge dev
+  153  ls
+  154  git add .
+  155  git commit -m "merge dev in test"
+  156   git push --set-upstream origin test
+  157  git switch main 
+  158  git merge test
+  159  ls
+  160  git add .
+  161  git commit -m "merge test in main"
+  162  git push
+  163  git add .
+  164  git commit -m "added tf vpc ec2"
+  165  git commit -m "added tf vpc ec2"
+  166  git push
+  167  git push
+  168  git push origin mail
+  169  git push origin main
+  170  git pull
+  171  git add .
+  172  git commit -m "added tf vpc ec2"
+  173  git push origin main
+  174  ls
+  175  rm -fr terraform.tfstate.backup 
+  176  rm -fr main.tf 
+  177  git add .
+  178  git commit -m "added tf vpc ec2"
+  179  git push origin main
+  180  git add .
+  181  git commit -m "terraform vpc-ec2 files"
+  182  git push
+  183  ls
+  184  ll
+  185  ls -a
+  186  git pull https://github.com/swapnibrad/apponex_repo_1.git
+  187  ls
+  188  ls
+  189  ls
+  190  git clone https://github.com/swapnibrad/apponex_repo_1.git
+  191  ls
+  192  cd apponex_repo_1/
+  193  ls
+  194  rm -fr Jenkinsfile pipeline.groovy repo_files.txt student.war 
+  195  ls
+  196  git add .
+  197  ls
+  198  git add .
+  199  git commit -m "terraform files vpc & EC2"
+  200  git push
+  201  git add .
+  202  git commit -m "terraform files user and veriables"
+  203  git add .
+  204  git commit -m "terraform file ec2 variable"
+  205  git push
+  206  ls
+  207  git add .
+  208  git commit -m "module"
+  209  git push
+  210  ls
+  211  git clone https://github.com/swapnibrad/ax_b2.git
+  212  ls
+  213  cd ax_b2/
+  214  git add .
+  215  git push -m "11th march | cft | iam"
+  216  git push -m "11march-cft-iam"
+  217  git commit -m "11march-cft-iam"
+  218  git push
+  219  git clone https://github.com/TechPrimers/multi-stage-example.git
+  220  ls
+  221  cd multi-stage-example/
+  222  ls
+  223  cd ../../a/apponex_repo_1/
+  224  ls
+  225  git add .
+  226  git commit -m "dke multistage"
+  227  git push 
+  228  ls
+  229  vim README.md 
+  230  git add .
+  231  git commit -m "dke multistage"
+  232  git push 
+  233  cd apponex_repo_1/
+  234  git add .
+  235  git commit -m "k8s installation"
+  236  git push
+  237  git add .
+  238  git commit -m "k8s yaml file"
+  239  git push
+  240  git push
+  241  git clone https://github.com/swapnibrad/apponex_repo_1.git
+  242  ls
+  243  git pull https://github.com/swapnibrad/apponex_repo_1.git
+  244  ls
+  245  ls
+  246  ls
+  247  pwd
+  248  ls
+  249  touch file_{2..5}.txt
+  250  ls
+  251  echo "welcome ls!" >> file_1.txt 
+  252  cat file_1.txt 
+  253  git add
+  254  git add file_1.txt 
+  255  git add file_1.txt 
+  256  ls
+  257  git status
+  258  git add .
+  259  git status
+  260  echo "welcome ls!" >> file_2.txt 
+  261  git status
+  262  git add .
+  263  git status
+  264  git commit -m "adding files in local repo"
+  265  git status 
+  266  ls
+  267  mkdir tom
+  268  git add tom/
+  269  git status 
+  270  ls
+  271  cat file_1.txt 
+  272  echo "date 2nd april" >> file_1.txt 
+  273  cat file_1.txt 
+  274  git add .
+  275  git commit -m "updated on 2nd april"
+  276  echo "date 3rd april" >> file_1.txt 
+  277  cat file_1.txt 
+  278  git add .
+  279  git commit -m "updated on 3 april"
+  280  git commit 
+  281  git log
+  282  git --help
+  283  git checkout 057635b32bffaa69b615f67d6742e474167b3066
+  284  ls
+  285  cat file_1.txt 
+  286  git log
+  287  git checkout 8336e29547ebdc7092711ac326a73f7dfe729528
+  288  ls file_1.txt 
+  289  git checkout
+  290  git checkout 4d3be47661059eb415893bf4f6e32424e088af26
+  291  ls
+  292  cat file_1.txt 
+  293  ls
+  294  rm -fr *
+  295  git add .
+  296  git commit -m "removed all"
+  297  la
+  298  ls
+  299  ls
+  300  pwd
+  301  echo "data from jan month" >> jan.txt
+  302  ls
+  303  cat jan.txt 
+  304  git add .
+  305  git commit -m "jan"
+  306  echo "data from feb month" >> feb.txt
+  307  git add .
+  308  git commit -m "feb"
+  309  ls
+  310  git log --one
+  311  git log -one
+  312  git log -oneline
+  313  git log --oneline
+  314  ls
+  315  git checkout f1869c5
+  316  ls
+  317  git checkout f6cc3a1
+  318  ls
+  319  ls
+  320  rm jan.txt 
+  321  git status 
+  322  git add .
+  323  git status 
+  324  git checkout main
+  325  git status 
+  326  git commit -m "updated"
+  327  git status 
+  328  ls
+  329  git clone https://github.com/swapnibrad/Apponix_repo_2.git
+  330  ls
+  331  cd Apponix_repo_2/
+  332  ls
+  333  cat README.md 
+  334  ls
+  335  echo "data from feb month" >> feb.txt
+  336  echo "data from march month" >> march.txt
+  337  ls
+  338  git add .
+  339  git commit -m "adding 2 files"
+  340  git push
+  341  touch tom
+  342  git add .
+  343  git commit -m " files"
+  344  git push
+  345  ls
+  346  git pull
+  347  ls
+  348  git push
+  349  git clone https://github.com/swapnibrad/Apponix_repo_2.git
+  350  ls
+  351  cd Apponix_repo_2/
+  352  ls
+  353  cd ..
+  354  ls
+  355  git clone https://github.com/swapnibrad/private_repo_b2.git
+  356  ls
+  357  rm -fr private_repo_b2/
+  358  ls
+  359  ls -a
+  360  ssh-keygen
+  361  git clone git@github.com:swapnibrad/private_repo_b2.git
+  362  ls
+  363  git clone git@github.com:swapnibrad/private_repo_b2.git
+  364  ls
+  365  cd private_repo_b2/
+  366  ls
+  367  cat file 
+  368  ls
+  369  ls
+  370  git pull
+  371  ls
+  372  cat hist.txt 
+  373  ls
+  374  git pull
+  375  ls
+  376  git clone https://github.com/swapnibrad/Apponix_repo_2.git
+  377  ls
+  378  cd Apponix_repo_2/
+  379  ls
+  380  ls terrafotm/
+  381  git add .
+  382  git commit -m 'tf'
+  383  git push
+  384  ls
+  385  mv terrafotm/ terraform
+  386  ls
+  387  git add .
+  388  git commit -m 'tf'
+  389  git push
+  390  pwd
+  391  ls
+  392  ls -a
+  393  git init
+  394  ls -a
+  395  ls .git/
+  396  cat .git/config 
+  397  touch file_{1..5}.txt
+  398  ls
+  399  git add
+  400   git add file_1.txt
+  401  ls
+  402  git status
+  403  ls
+  404  git status
+  405  git commit -m "adding file 1 in local repo" file_1.txt 
+  406  git status
+  407  ls
+  408  git add .
+  409  git status
+  410  git status
+  411  git commit -m "adding file 2-5 in local repo"
+  412  ls
+  413  history 
+  414  history >> file_1.txt 
+  415  ls
+  416  cat file_
+  417  cat file_1.txt 
+  418  ls
+  419  git status
+  420  ls
+  421  echo "welcome to git session ls!"  >> file_2.txt 
+  422  git status
+  423  git add .
+  424  git commit -m "added text in file 1&2"
+  425  git status
+  426  git commit
+  427  git logs
+  428  git log
+  429  git log --oneline 
+  430  ls 
+  431  mkdir tom
+  432  mv file_{3..5}.txt tom/
+  433  ls
+  434  ls tom/
+  435  git status
+  436  git add .
+  437  git status
+  438  git commit -m "added files in tom dir"
+  439  git status
+  440  git branch
+  441  ls
+  442  git status
+  443  vim Dockerfile main.tf
+  444  ls
+  445  echo "this is terraform file" >> main.tf
+  446  ls
+  447  ls
+  448  git status
+  449  git add .
+  450  git add .
+  451  git commit -m "adding tf and Dkr file"
+  452  git status
+  453  ls
+  454  pwd
+  455  ls
+  456  rm -fr *
+  457  ls
+  458  git clone https://github.com/swapnibrad/Test_Repository.git
+  459  ls
+  460  ls Test_Repository/
+  461  cd Test_Repository/
+  462  cat README.md 
+  463  touch file.json main.tf lenovo.txt
+  464  ls
+  465  git status
+  466  git add .
+  467  git status
+  468  git commit -m "new files"
+  469  git status
+  470  git push
+  471  ls
+  472  mkdir test_dir
+  473  mv file.json test_dir/
+  474  mv lenovo.txt test_dir/
+  475  mv main.tf test_dir/
+  476  ls
+  477  ls test_dir/
+  478  git add .
+  479  git commit -m "updated directory"
+  480  git push
+  481  cd ..
+  482  ls
+  483  ls
+  484   git clone https://github.com/swapnibrad/Apponix_repo_3_private.git
+  485  ls
+  486  cd Apponix_repo_3_private/
+  487  ls
+  488  touch text.file.txt
+  489  git add .
+  490  git commit -m "updated data"
+  491  git push
+  492  ls
+  493  touch text.file2.txt
+  494  git add .
+  495  git push
+  496  git commit -m "updated data"
+  497  git push
+  498  cd ..
+  499  cd ..
+  500  pwd
+  501  touch file_1.txt history
+  502  ls
+  503  history >> history 
